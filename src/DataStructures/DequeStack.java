@@ -15,7 +15,7 @@ public class DequeStack<E> {
 
     public void addLast(E e) {
         if (tos == size - 1) {
-            System.out.println("Stack full");
+            System.out.println("StackDS full");
             throw new ArrayIndexOutOfBoundsException("Stackfull");
         } else {
             data[++tos] = e;
